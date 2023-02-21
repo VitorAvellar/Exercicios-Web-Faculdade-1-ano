@@ -1,0 +1,73 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+:root {
+     --bg-dark: #000;
+}
+
+body{
+    background-color: var(--bg-dark);
+}
+
+.tituloprincipal {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+
+}
+
+
+
+.titulofelicidade {
+    font-size: 45px;
+    font-weight: 550;
+    color: red;
+
+}
+
+.card-triste {
+    display: flex;
+    justify-content: center;
+    padding-top: 15%;
+  
+}
+
+.linkdafelicidade{
+    font-size: 25px;
+    text-decoration: none;
+    color: red;
+   
+    
+}
+
+.btn{
+    border: 2px solid gray;
+    background-color: gray;
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 70px;
+    font-weight: 700;
+     transition: .3s;
+}
+
+.btn:hover{
+    background-color: transparent;
+}
+
+
+
+.icones{
+display: flex;
+justify-content: center;
+padding: 70px;
+font-size: 60px;
+}
+
+
+.icon{
+    color:red;
+}
